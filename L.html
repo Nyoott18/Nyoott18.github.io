@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>BORANG PENDAFTARAN</h2>
+    <form action="https://dev.fare4z.com" method="POST" enctype="multipart/form-data" name="borang">
+        <p>
+            <label for="name">Nama Peserta:</label>
+            <input type="text" id="Name" name="name">
+        </p>
+        <p>
+            <label for="katalaluan">Nombor Kad Pengealan:</label>
+            <input type="password" id="katalaluan">
+        </p>
+        <p>
+            <label for="dob">Tarikh Lahir:</label>
+            <input type="data" name="dob">
+        </p>
+        <p>
+            <label for="age">Umur:</label>
+            <input type="number" name="age">
+        </p>
+        <p>
+            <label for="gender">Jantina:</label>
+            <input type="radio" name="gender" value="male">Lelaki
+            <input type="radio" name="gender" value="male">Perempuan
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+        </p>
+        <p>
+            <label for="phone">Nombor Telefon:</label>
+            <input type="test" valiue="01" required>
+        </p>
+        <p>
+            <label for="alamat">Alamat Rumah:</label>
+            <textarea id="alamat" name="alamat" rows="4" cols="30"></textarea>
+        </p>
+        <p>
+            <label for="country">Status Pelajar:</label>
+            <select id="country" name="country">
+                <option value="option">-Sila Pilih-</option>
+                <option value="aktif">Aktif</option>
+                <option value="tak aktif">Tidak AKtif</option>
+            </select>
+        </p>
+        <p>
+            <label for="department">Kemahiran</label>
+            <input type="checkbox" value="HTML" name="Kemahiran[]">HTML<br>
+            <input type="checkbox" value="CSS" name="Kemahiran[]">JKM<br>
+            <input type="checkbox" value="PHP" name="Kemahiran[]">JKE<br>
+        </p>
+        <P>
+            <label for="Profile Photo">Gambar Profile</label>
+            <input type="file" name="uploadFile">
+        </P>
+        <p>
+            <label for="katalaluan">Kata Laluan:</label>
+            <input type="password" id="katalaluan">
+        </p>
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+        <p>
+            <button type="reset">Kosongkan</button>
+        </p>
+    </form>
+</body>
+</html>
